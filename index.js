@@ -3,7 +3,7 @@ var config = require("./config.json")
 var app = express()
 
 app.get("/", function(req, res){
-	res.send("Test")
+	res.send("Git Extensions")
 })
 
 app.listen(config.express.port, function(){
